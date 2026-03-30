@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADVANCED FORM</title>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
+
+        html {
+            font-family: "jost", sans-serif;
+            background-color: #efefef;
+        }
+
+        h1 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <div>
+            <label for="range">Range: </label>
+            <input type="range" name="volume" min="0" max="100" value="80" />
+        </div>
+        <br />
+        <div>
+            <label for="birthdate">birthdate: </label>
+            <input type="date" name="birthdate" />
+        </div>
+
+        <br />
+        <div>
+            <label for="appointmentTime">appointmentTime: </label>
+            <input type="time" name="appointmentTime" />
+        </div>
+
+        <br />
+        <div>
+            <label for="favoriteColor">favoriteColor: </label>
+            <input type="color" name="favoriteColor" />
+        </div>
+
+        <br />
+        <div>
+            <label for="website">website: </label>
+            <input type="url" name="website" placeholder="Enter website URL" />
+        </div>
+
+        <br />
+        <div>
+            <label for="searchQuery">searchQuery: </label>
+            <input type="search" name="searchQuery" placeholder="Search..." />
+        </div>
+
+        <br />
+        <div>
+            <label for="expiryDate">Month & Year: </label>
+            <input type="month" name="expiryDate" />
+        </div>
+
+        <br />
+        <div>
+            <label for="week">vacationWeek: </label>
+            <input type="week" name="vacationWeek" />
+        </div>
+    </form>
+    <br />
+
+    
+    
+
+    <form action="/submit" method="post">
+        <!-- add <fieldset> </fieldset> -->
+        <fieldset>
+            <legend>Contact Info</legend>
+            <br>
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" />
+            </div>
+            <br>
+            <div>
+                <label for="email">Enter your email</label>
+                <input type="email" id="email" />
+            </div>
+            <br>
+            <div>
+                <label for="textarea">Message</label>
+                <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <input type="submit" value="submit" />
+        </fieldset>
+    </form>
+</body>
+
+</html>

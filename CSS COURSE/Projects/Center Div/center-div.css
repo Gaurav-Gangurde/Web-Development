@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #191825;
+
+/* 1st trick */
+    /* position: relative; */
+
+    /* 2nd Trick Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* 3rd Trick Grid */
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+
+    /* 4rt Trick Grid */
+    /* display: grid;
+    place-items: center; */
+
+    /* 5th Flex and margin */
+    /* display: flex; */
+
+}
+
+.div{
+    width: 400px;
+    height: 400px;
+    background-color: #865dff;
+
+
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ /* 1st trick */
+/* position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%); */
+    
+ /* 5th Trick */
+ /* margin: auto; */
+
+
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: grid;
+    place-items: center;
+
+}
+
+img {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    filter: blur(1px) grayscale(0.5) contrast(1.2);
+  
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Picture Tag</title>
+    <style>
+        html {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            text-align: center;
+            background-color: aliceblue;
+        }
+
+        img {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 30px 0px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML PICTURE TAG</h1>
+    <picture>
+        <source srcset="./HTML_ Photos/Image1.jpg" type="Image1/jpg">
+        <source srcset="./HTML_ Photos/Image2.png" type="Image2/png">
+        <source srcset="./HTML_ Photos/Image3.webp" type="Image3/webp">
+        <source srcset="./HTML_ Photos/Image4.jpeg" type="Image4/jpeg">
+        <source srcset="./HTML_ Photos/Image5.jpeg" type="Image5/jpeg">
+        <img src="./HTML_ Photos/Image2.png" alt="Best html course" width="500" height="auto">
+    </picture>
+</body>
+
+</html>

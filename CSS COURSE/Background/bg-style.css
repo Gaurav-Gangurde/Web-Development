@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image: url("../images/css.png"), url("../images/hero.png");
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+    /* background-size: auto; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+
+    /* background-position: left top; */
+    /* background-position: right top; */
+    /* background-position: left bottom; */
+    /* background-position: right bottom; */
+
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
+    /* background-attachment: local; */
+
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: difference; */
+    /* background-blend-mode: screen; */
+    /* background-blend-mode: overlay; */
+    /* background-blend-mode: multiply; */
+}

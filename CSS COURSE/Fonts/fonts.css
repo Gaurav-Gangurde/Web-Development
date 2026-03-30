@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+    font-family: "GauravFont";
+    src: url("./font/Fortune.otf") format("OpenType");
+}
+
+body {
+    background-color: bisque;
+    display: grid;
+    place-items: center;
+}
+
+.hero-section {
+    width: 50%;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Urbanist", sans-serif;
+    font-size: 54px;
+    /* font-size: 5.4rem;
+    font-size: 2em;
+    font-size: 200%;
+    font-size: small;
+    font-size: medium;
+    font-size: large; */
+
+
+    font-weight: 900;
+    /* font-weight: bold; */
+    /* font-weight: thin; */
+    /* font-weight: lighter; */
+
+    font-style: italic;
+    /* font-style: normal; */
+    /* font-style: oblique; */
+
+    font-variant: small-caps;
+    /* font-variant: normal; */
+}
+
+p {
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+a {
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+}

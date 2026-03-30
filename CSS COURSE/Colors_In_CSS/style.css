@@ -1,0 +1,39 @@
+h1 {
+    color: violet;
+
+    /* RGB Colors */
+    color: rgb(255, 0, 0);
+
+    /* RGBA Colors */
+    color: rgba(0, 255, 0, 1);
+
+    /* Hexadecimal Colors */
+    color: #ff0000;
+
+    /* HSLA Colors */
+    color: hsla(15, 100%, 50%, 0.944);
+
+    /* HSL Colors */
+    color: hsl(226, 84%, 17%);
+}
+
+p {
+    color: blue;
+
+    /* RGB Colors */
+    color: rgb(0, 0, 255);
+
+    /* RGBA Colors */
+    color: rgba(155, 0, 0, 0.5);
+
+    /* Hexadecimal Colors */
+    color: #ccc;
+
+    /* HSLA Colors */
+    color: hsla(227, 100%, 50%, 0.944);
+
+    /* HSL Colors */
+    color: hsl(27, 93%, 21%);
+
+    /* color: currentColor; */
+}
